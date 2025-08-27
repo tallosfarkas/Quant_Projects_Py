@@ -1,0 +1,12 @@
+# Minimal requirements for nvda_dashboard Streamlit deployment
+# Pin major versions for stability; adjust as needed.
+streamlit>=1.36
+pandas>=2.2
+numpy>=1.26
+yfinance>=0.2.50
+openbb>=4.4.5
+requests>=2.31
+python-dotenv>=1.0
+# Optional (uncomment if you add plots/features needing them)
+# plotly>=5.24
+# scipy>=1.11
